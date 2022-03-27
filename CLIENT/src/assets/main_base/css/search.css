@@ -1,0 +1,319 @@
+.search {
+    height: 50px;
+    border: solid 1px #d1d1d1!important;
+    display: inline;
+    border-radius: 0!important;
+    width: 100%!important;
+    margin-bottom: 20px;
+    margin-right: 0!important;
+}
+
+.search-full-width {
+    height: 50px;
+    border: solid 1px #d1d1d1!important;
+    display: inline;
+    border-radius: 0!important;
+    width: 100%!important;
+    margin-bottom: 20px;
+    margin-right: 0!important;
+}
+
+.search-870 {
+    height: 50px;
+    border: solid 1px #d1d1d1!important;
+    display: inline;
+    border-radius: 0!important;
+    width: 100%!important;
+    margin-bottom: 20px;
+    margin-right: 0!important;
+}
+
+.search-780 {
+    height: 50px;
+    border: solid 1px #d1d1d1!important;
+    display: inline;
+    border-radius: 0!important;
+    width: 100%!important;
+    margin-bottom: 20px;
+    margin-right: 0!important;
+}
+
+.search-456 {
+    height: 50px;
+    border: solid 1px #d1d1d1!important;
+    display: inline;
+    border-radius: 0!important;
+    width: 100%!important;
+    margin-bottom: 20px;
+    margin-right: 0!important;
+}
+
+.search-714 {
+    height: 50px;
+    border: solid 1px #d1d1d1!important;
+    display: inline;
+    border-radius: 0!important;
+    width: 100%!important;
+    margin-bottom: 20px;
+    margin-right: 0!important;
+}
+
+.search-496 {
+    height: 50px;
+    border: solid 1px #d1d1d1!important;
+    display: inline;
+    border-radius: 0!important;
+    width: 100%!important;
+    margin-bottom: 20px;
+    margin-right: 0!important;
+}
+
+.search-717 {
+    height: 50px;
+    border: solid 1px #d1d1d1!important;
+    display: inline;
+    border-radius: 0!important;
+    width: 100%!important;
+    margin-bottom: 20px;
+    margin-right: 0!important;
+}
+
+.search-792 {
+    height: 50px;
+    border: solid 1px #d1d1d1!important;
+    display: inline;
+    border-radius: 0!important;
+    width: 100%!important;
+    margin-bottom: 20px;
+    margin-right: 0!important;
+}
+
+.search-900 {
+    height: 50px;
+    border: solid 1px #d1d1d1!important;
+    display: inline;
+    border-radius: 0!important;
+    width: 100%!important;
+    margin-bottom: 20px;
+    margin-right: 0!important;
+}
+
+.search-939 {
+    height: 50px;
+    border: solid 1px #d1d1d1!important;
+    display: inline;
+    border-radius: 0!important;
+    width: 100%!important;
+    margin-bottom: 20px;
+    margin-right: 0!important;
+}
+
+.search-1128 {
+    height: 50px;
+    border: solid 1px #d1d1d1!important;
+    display: inline;
+    border-radius: 0!important;
+    width: 100%!important;
+    margin-bottom: 20px;
+    margin-right: 0!important;
+}
+
+.search-1014 {
+    height: 50px;
+    border: solid 1px #d1d1d1!important;
+    display: inline;
+    border-radius: 0!important;
+    width: 100%!important;
+    margin-bottom: 20px;
+    margin-right: 0!important;
+}
+
+.search-800 {
+    height: 50px;
+    border: solid 1px #d1d1d1!important;
+    display: inline;
+    border-radius: 0!important;
+    width: 100%!important;
+    margin-bottom: 20px;
+    margin-right: 0!important;
+}
+
+.search-nav {
+    height: fit-content!important;
+}
+
+.filter {
+    height: 50px;
+    border: solid 1px #d1d1d1!important;
+    background-color: transparent!important;
+    font-size: 19px!important;
+    margin-bottom: 20px!important;
+    border-radius: 0%!important;
+    padding-right: 20px!important;
+}
+
+.filter i {
+    font-size: 9px!important;
+}
+
+.filter-right {
+    float: right;
+}
+
+.filter-left {
+    float: left;
+}
+
+.filter-250 {
+    width: 250px!important;
+}
+.search-filter:not(:last-child) {
+    border-right: solid 1px #c6c6c6;
+}
+
+.search-filter {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.search-filter:first-child {
+    padding-left: 0!important;
+}
+
+.search-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.input-768 {
+    height: 50px;
+    border: solid 1px #d1d1d1!important;
+    display: inline;
+    border-radius: 0!important;
+    width: 100%!important;
+    margin-bottom: 20px;
+    margin-right: 0!important;
+}
+
+.input-491 {
+    height: 50px;
+    border: solid 1px #d1d1d1!important;
+    display: inline;
+    border-radius: 0!important;
+    width: 100%!important;
+    margin-bottom: 20px;
+    margin-right: 0!important;
+}
+
+.input-728 {
+    height: 50px;
+    border: solid 1px #d1d1d1!important;
+    display: inline;
+    border-radius: 0!important;
+    width: 100%!important;
+    margin-bottom: 20px;
+    margin-right: 0!important;
+}
+
+@media all and (max-width: 767px) {
+    .applied-filters {
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+}
+
+@media all and (min-width: 1366px) {
+    .search {
+        width: 480px!important;
+        margin-bottom: 0!important;
+    }
+
+    .search-full-width {
+        width: 100%!important;
+        margin-bottom: 0!important;
+    }
+
+    .search-full-width.sidebar {
+        margin-bottom: 20px!important;
+    }
+
+    .search-870 {
+        width: 870px!important;
+        margin-bottom: 0!important;
+    }
+
+    .search-780 {
+        width: 780px!important;
+        margin-bottom: 0!important;
+    }
+
+    .search-456 {
+        width: 456px!important;
+        margin-bottom: 0!important;
+    }
+
+    .search-714 {
+        width: 714px!important;
+        margin-bottom: 0!important;
+    }
+
+    .search-496 {
+        width: 496px!important;
+        margin-bottom: 0!important;
+    }
+
+    .search-717 {
+        width: 717px!important;
+        margin-bottom: 0!important;
+    }
+
+    .search-792 {
+        width: 792px!important;
+        margin-bottom: 0!important;
+    }
+
+    .search-1128 {
+        width: 1128px!important;
+        margin-bottom: 0!important;
+    }
+
+    .search-939 {
+        width: 939px!important;
+        margin-bottom: 0!important;
+    }
+
+    .search-1014 {
+        width: 1014px!important;
+        margin-bottom: 0!important;
+    }
+
+    .search-800 {
+        width: 800px!important;
+        margin-bottom: 0!important;
+    }
+
+    .filter {
+        margin-bottom: 0px!important;
+    }
+
+    .input-900 {
+        width: 900px!important;
+        margin-bottom: 0!important;
+    }
+
+    .input-768 {
+        width: 768px!important;
+        margin-bottom: 0!important;
+    }
+
+    .input-491 {
+        width: 491px!important;
+        margin-bottom: 0!important;
+    }
+
+    .input-728 {
+        width: 728px!important;
+        margin-bottom: 0!important;
+    }
+}

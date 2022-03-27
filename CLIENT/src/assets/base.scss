@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+
+body {
+ font-family: 'Poppins', sans-serif;
+  height: 100%;
+}
+
+h2.title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+}
+h3.title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  font-size: 1.2rem;
+}
+p{
+  font-size: 1.15rem;
+}
+
+.checkbox{
+  font-size: 1.15rem;
+}
+.button.is-success {
+  background-color: #2EB398;
+}
+.nav.is-dark {
+  background-color: #232B2D;
+  color: #F6F7F7;
+}
+.nav.is-dark .nav-item a, .nav.is-dark a.nav-item {
+    color: #F6F7F7;
+}
+.nav.is-dark .nav-item a.button.is-default {
+    color: #F6F7F7;
+    background-color: transparent;
+    border-width: 2px;
+}
+.aside {
+  background-color: #3298BD;
+  margin-right: -10px;
+}
+.aside .main {
+  padding: 0px 15px;
+  color: #fff;
+  transition: all .3s ease-out;
+}
+.aside .main a:hover{
+  background-color: #2A87A8;
+  color: #fff;
+}
+.aside .title {
+  color: #6F7B7E;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.aside .main .item {
+  display: block;
+  padding: 10px 0;
+  color: #6F7B7E;
+}
+.aside .main .item.active {
+  color: #F6F7F7;
+}
+.aside .main .icon {
+  font-size: 19px;
+  padding-right: 30px;
+}
+.aside .main .name {
+  font-size: 16px;
+  font-weight: bold;
+}
+.admin-panel {
+  padding-bottom: 0;
+}
+.content {
+  display: block;
+  background-color: #fff;
+  padding: 40px 20px;
+}
+.hero .tabs ul {
+    border-bottom: 1px solid #d3d6db;
+}
+
+.button.is-primary:hover, .button.is-primary.is-hovered{
+  text-decoration: none!important;
+}

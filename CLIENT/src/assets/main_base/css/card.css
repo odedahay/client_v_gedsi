@@ -1,0 +1,1563 @@
+:root {
+    --colorNav: #012c51;
+    --colorNavText: #ffffff;
+    --colorBtnPrimary: #f58400;
+    --orange-yellow: #feaa00;
+    --pumpkin-orange: #f58400;
+    --white: #ffffff;
+    --black: #000000;
+    --marine: #012c51;
+}
+
+.card {
+    border-radius: 0!important;
+}
+
+.list-group-item {
+    background-color: transparent!important;
+    border: none!important;
+}
+
+.list-group-item:first-child, .list-group-item:last-child {
+    border-radius: 0!important;
+}
+
+.au-card {
+    background-color: #fefefe;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.au-card img {
+    position: absolute;
+}
+
+.au-card .card-icon img {
+    position: relative;
+}
+
+.card-content .h2 {
+    margin-bottom: 30px!important;
+}
+
+.card-content p {
+    margin-bottom: 17px!important;
+}
+
+.home .card-content p {
+    margin-bottom: 0!important;
+}
+
+.home .au-card.quote {
+    background-color: #f4f4f4;
+}
+
+.home .au-card.quote.story {
+    background-color: var(--white)!important;
+}
+
+.home .au-card.quote iframe {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    width: calc(100% - 80px)!important;
+    height: 341px;
+}
+
+.au-card-panel iframe {
+    position: absolute;
+    top: 0!important;
+    /*left: 20px!important;*/
+    right: 0!important;
+    width: 100%;
+    height: 341px;
+}
+
+.home .au-card.quote .description {
+    position: absolute;
+    top: 401px!;
+    left: 40px!important;
+    right: 40px!important;
+    width: calc(100% - 80px)!important;
+}
+
+.au-card-panel .video-description {
+    position: absolute;
+    top: 361px!important;
+    left: 20px!important;
+    right: 0!important;
+    width: 100%!important;
+}
+
+.home .au-card.quote .card-content.white-bg {
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+.card-links .featured-video {
+    width: 100%;
+    height: 383px;
+}
+
+.au-card .card-content {
+    width: 100%;
+    padding: 40px 68px;
+    background-color: rgba(1, 41, 81, 0.76);
+    float: none;
+    height: 100%;
+    z-index: 2;
+}
+
+.au-card .card-content-at-the-bottom {
+    width: 100%;
+    padding: 40px 40px;
+    background-color: rgba(1, 41, 81, 0.76);
+    float: none;
+    z-index: 2;
+}
+
+.card-small-img {
+    height: 158px!important;
+    width: 100%!important;
+}
+
+.au-card .card-content.white-bg.col-6 {
+    flex: 0 0 calc(50% + 20px);
+    max-width: calc(50% + 20px);
+}
+
+.story-highlight {
+    background-color: #efefef;
+    position: relative;
+    z-index: 2;
+    width: calc(100% + 40px)!important;
+}
+
+.story-highlight-right {
+    right: 40px;
+}
+
+.story-highlight.white-bg {
+    background-color: var(--white)!important;
+}
+
+.story-highlight .title {
+    font-size: 33px!important;
+    font-weight: normal!important;
+}
+
+.story .top-left-triangle {
+    width: 0;
+    height: 0;
+    border-top: 40px solid var(--gray-hint-text);
+    border-right: 40px solid transparent;
+    margin-right: -40px;
+    position: relative;
+    z-index: 2;
+}
+
+.story .top-right-triangle {
+    width: 0;
+    height: 0;
+    border-top: 40px solid var(--gray-hint-text);
+    border-left: 40px solid transparent;
+    margin-right: -40px;
+    position: relative;
+    z-index: 2;
+}
+
+.card-content-icsp {
+    padding: 40px 68px;
+    background-color: var(--marine);
+    float: none;
+    height: 100%;
+    z-index: 1;
+}
+
+.card-text-wrap {
+    float: left;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.au-card-panel {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+}
+
+.au-card-panel-item {
+    padding: 0 40px 40px 40px;
+}
+
+.icon-tiny {
+    height: 50px!important;
+}
+
+.icon-sm {
+    max-width: 89px!important;
+}
+
+.icon-120 {
+    height: 120px;
+    width: 120px;
+}
+
+.icon-large {
+    height: 250px;
+    width: 250px;
+}
+
+.icon-xl.left {
+    font-size: 54px;
+    position: absolute;
+    opacity: 0.3;
+    top: -19px;
+    left: -28px;
+}
+
+.icon-xl.right {
+    font-size: 54px;
+    position: absolute;
+    opacity: 0.3;
+    bottom: -20px;
+    right: -24px;
+    z-index: 1;
+}
+
+.icon-100 {
+    height: 101px!important;
+    width: 75px!important;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.76);
+    padding: 40px;
+    position: relative;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    z-index: 100;
+}
+
+.box .h5 {
+    font-family: NimbusSans!important;
+    font-size: 22.8px!important;
+    font-weight: normal!important;
+    color: var(--black);
+}
+
+.box.arrow-left::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-left: -0.5em;
+    top: 4em;
+    left: 8px;
+    box-sizing: border-box;
+    border: .5em solid black;
+    border-color: transparent transparent #ffffff #ffffff;
+    transform-origin: 0 0;
+    transform: rotate(45deg);
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.16);
+    opacity: .76;
+}
+
+.box.arrow-right::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-left: -0.5em;
+    top: 4em;
+    right: -16px;
+    box-sizing: border-box;
+    border: .5em solid black;
+    border-color: transparent transparent #ffffff #ffffff;
+    transform-origin: 0 0;
+    transform: rotate(225deg);
+    box-shadow: -4px 0 2px -2px rgba(0, 0, 0, 0.16);
+    opacity: .76;
+}
+
+.home .box.arrow-left::after {
+    top: 45%!important;
+}
+
+.home .box.arrow-right::after {
+    top: 55%!important;
+}
+
+.card-logo:hover {
+    border: solid 2px var(--pumpkin-orange);
+}
+
+.card-logo:hover a {
+    color: var(--ocean-blue)!important;
+}
+
+.monthDateContainer {
+    max-width: 15%;
+    margin: 0 auto;
+    background-color: #2c2c2c;
+    border-radius: 7px;
+}
+
+.month {
+    background-color: #7b7b7b;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 0px;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.date {
+    text-align: center;
+    vertical-align: middle;
+    height: auto;
+    padding: 8px 12px;
+    font-weight: 400!important;
+    margin-bottom: 0!important;
+}
+
+.translucent-arrow-bg {
+    background-repeat: no-repeat;
+    background-size: 33% auto;
+    background-position: left 43%;
+    background-image: url(../img/Translucent\ Gold\ Arrow\ with\ Outline.png);
+}
+
+.card-link-item:hover {
+    text-decoration: none;
+}
+
+.card-link-item:hover h2 {
+    color: var(--coffee)!important;
+}
+
+.card-link-item:hover .ellipse-sm {
+    background-color: var(--coffee)!important;
+}
+
+.search-result {
+    height: 100px;
+}
+
+.search-result-large {
+    height: 300px;
+}
+
+.card-img-height-s {
+    height: 100px;
+}
+}
+
+.card-img-height-m {
+    height: 210px;
+}
+
+.card-img-height-l {
+    height: 400px;
+}
+
+.img-crop-top-container {
+    overflow: hidden;
+}
+
+.img-crop-top {
+   display: block;
+   height: auto;
+   top: 0;
+}
+
+.arrow-separator {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.reverse .arrow-separator, .reverse .arrow-separator-tablet {
+    transform: scaleX(-1);
+}
+
+.card-side-105 {
+    padding-left: 105px!important;
+}
+
+.reverse .card-side-105 {
+    padding-right: 105px!important;
+    padding-left: 0!important;
+}
+
+.profile {
+    height: 100px;
+    width: 100px;
+}
+
+.profile-lg {
+    height: 375px;
+    width: 375px;
+}
+
+.au-media-box {
+    max-width: 375px!important;
+}
+
+.award-winners:not(:last-child) {
+    margin-bottom: 80px!important;
+}
+
+.box-shadow {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.box-shadow-top {
+    box-shadow: 0 -3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.lr-shadow {
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.16)!important;
+}
+
+.event-details-speakers {
+    height: 450px;
+    width: 300px;
+}
+
+.bullet {
+    padding-inline-start: 20px;
+}
+
+.bullet li::marker {
+    position: absolute;
+    left: 0;
+}
+
+.card-icon {
+    width: 128px!important;
+}
+
+.au-card-panel .landscape-banner {
+    height: 246px!important;
+}
+
+.home .icon-xl.left {
+    left: -15px!important;
+}
+
+.home .icon-xl.right {
+    right: -15px!important;
+}
+
+.scholarships #accordion {
+    margin-left: 40px!important;
+}
+
+.scholarships #accordion .card {
+    border-radius: 0!important;
+    border-bottom: none;
+}
+
+.scholarships #accordion .card-header {
+    border-bottom: none;
+    margin-bottom: 0!important;
+    padding-bottom: 20px!important;
+    border-bottom: solid 1px rgba(112, 112, 112, 0.23);
+    position: relative;
+}
+
+.scholarships #accordion .btn:focus {
+    border: none!important;
+}
+
+.scholarships #accordion .list-group-item {
+    padding: 20px!important;
+}
+
+.scholarships #accordion .list-group-item:not(:last-child) {
+    border-bottom: solid 1px rgba(112, 112, 112, 0.23)!important;
+}
+
+#accordion.side-nav {
+    margin-top: -60px;
+    z-index: 1040;
+    border: solid 1px white;
+    width: 290px;
+    top: 129px;
+}
+
+.right-triangle {
+    width: 10px;
+    height: 17px;
+    border-left: solid 10px var(--white);
+    border-bottom: solid 10px transparent;
+    border-top: solid 10px transparent;
+}
+
+.scholarships .nav-link.active::before {
+    position: absolute;
+    margin-left: -22px;
+    content: '';
+    width: 10px;
+    height: 17px;
+    border-left: solid 10px var(--white);
+    border-bottom: solid 10px transparent;
+    border-top: solid 10px transparent;
+}
+
+#accordion .indicator {
+    position: absolute;
+    vertical-align: middle;
+    margin: auto;
+    top: 0;
+    bottom: 20px;
+    left: -298px;
+}
+
+.scholarships .important-announcement {
+    background-color: #bf5b1f!important;
+}
+
+.scholarships .reap-card {
+    background-color: #0379a3!important;
+    border-radius: 10px;
+}
+
+.accordion.ts .card {
+    border-radius: 7px!important;
+}
+
+.accordion.ts .span {
+    width: 268px;
+    background-color: #2c2c2c;
+    position: absolute;
+    left: -267px;
+}
+
+.accordion.ts .card-header, .accordion.ts .card {
+    border: none!important;
+    background-color: var(--white);
+}
+
+.accordion.ts .title {
+    font-size: 24px!important;
+}
+
+.accordion.ts .title:focus {
+    border: none!important;
+}
+
+.accordion.ts .title:hover {
+    text-decoration: none!important
+}
+
+.accordion.ts .card-body .highlight {
+    background: rgba(44, 44, 44, 0.07);
+}
+
+.accordion.ts .tl-radius {
+    border-top-left-radius: 7px;
+}
+
+.accordion.ts .tr-radius {
+    border-top-right-radius: 7px;
+}
+
+.accordion.ts .bl-radius {
+    border-bottom-left-radius: 7px;
+}
+
+.accordion.ts .collapse-indicator {
+    position: absolute;
+    font-size: 35px;
+    left: -57px;
+    top: 30px;
+}
+
+.accordion.ts .indicator-border {
+    position: absolute;
+    height: 100%;
+    left: 0px;
+    border-left: 1px solid #2c2c2c;
+    top: 35px;
+    bottom: 0;
+}
+
+.accordion.ts .last-item {
+    position: absolute;
+    left: -308px;
+    border-left: 10px solid white;
+    height: 100%;
+    top: 35px;
+}
+
+.accordion.ts .card-header.collapsed {
+    border-radius: 7px;
+}
+
+.accordion.ts .card.au-card-panel {
+    left: 267px;
+    width: calc(100% - 267px);
+}
+
+.accordion.ts .title-container {
+    padding: 27px 0;
+}
+
+.accordion.ts .title-container {
+    overflow: hidden;
+}
+
+.tl-radius.collapsed {
+    border-bottom-left-radius: 7px;
+}
+
+.s-card-panel-item {
+    padding: 20px 20px 20px 20px;
+}
+
+.s-card-panel-item-40 {
+    padding: 40px 40px 40px 40px;
+}
+
+.scholarships .award-story {
+    background-color: var(--marine);
+}
+
+.scholarships .award-story-profile {
+    height: 400px;
+    width: 400px;
+}
+
+.au-card-panel .card-image-box {
+    height: 345px!important;
+    width: 300px!important;
+}
+
+.infographics {
+    width: 100px;
+    height: 120px;
+}
+
+.accordion.ad .card {
+    border-radius: 7px!important;
+}
+
+.accordion.ad .span {
+    width: 268px;
+    background-color: #2c2c2c;
+    position: absolute;
+    left: -267px;
+}
+
+.accordion.ad .card-header, .accordion.ad .card {
+    border: none!important;
+    background-color: var(--white);
+}
+
+.accordion.ad .title {
+    font-size: 24px!important;
+}
+
+.accordion.ad .title:focus {
+    border: none!important;
+}
+
+.accordion.ad .title:hover {
+    text-decoration: none!important
+}
+
+.accordion.ad .card-body .highlight {
+    background: rgba(44, 44, 44, 0.07);
+}
+
+.accordion.ad .tl-radius {
+    border-top-left-radius: 7px;
+}
+
+.accordion.ad .tr-radius {
+    border-top-right-radius: 7px;
+}
+
+.accordion.ad .bl-radius {
+    border-bottom-left-radius: 7px;
+}
+
+.accordion.ad .collapse-indicator {
+    position: absolute;
+    font-size: 35px;
+    left: -57px;
+    top: 30px;
+}
+
+.accordion.ad .indicator-border {
+    position: absolute;
+    height: 100%;
+    left: 0px;
+    border-left: 1px solid #2c2c2c;
+    top: 35px;
+    bottom: 0;
+}
+
+.accordion.ad .last-item {
+    position: absolute;
+    left: -308px;
+    border-left: 10px solid white;
+    height: 100%;
+    top: 35px;
+}
+
+.accordion.ad .card-header.collapsed {
+    border-radius: 7px;
+}
+
+.accordion.ad .card.au-card-panel {
+    left: 0px;
+}
+
+.accordion.ad .title-container {
+    padding: 27px 0;
+}
+
+.accordion.ad .title-container {
+    overflow: hidden;
+}
+
+.nav-pills .first-item {
+    position: absolute;
+    left: -10px;
+    border-left: 10px solid #efefef;
+    height: 24px;
+}
+
+.gallery-container-story {
+    background-image: url('../img/my-story-banner.png');
+    width: 100%;
+    height: 206px;
+    background-size: auto 206px;
+}
+
+.gallery-container-cover {
+    padding: 26px 0!important;
+    height: 258px!important;
+}
+
+@media all and (max-width: 767px) {
+    .au-card .card-content {
+        width: 100%;
+        padding: 20px;
+        background-color: rgba(1, 41, 81, 0.76);
+        float: none;
+        height: 100%;
+    }
+
+    .au-card.mb-30 {
+        margin-bottom: 20px!important;
+    }
+
+    .au-card-panel-item {
+        padding: 0 20px 20px 20px;
+        margin-bottom: 20px!important;
+    }
+
+    .au-card-panel-item.pt-40 {
+        padding-top: 20px!important;
+    }
+
+    .icon-xl.left {
+        left: 0;
+    }
+
+    .icon-xl.right {
+        right: 0;
+    }
+
+    .box.arrow-left::after {
+        display: none;
+    }
+
+    .box.arrow-right::after {
+        display: none;
+    }
+
+    .quote {
+        margin-left: 0!important;
+    }
+
+    .profile {
+        height: 100px;
+        width: 100px;
+    }
+
+    .profile-circle {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%!important;
+    }
+
+    .quotation {
+        box-shadow: none;
+    }
+
+    .translucent-arrow-bg {
+        background-size: auto 161%!important;
+        background-position: -48px 50%!important;
+    }
+
+    .coffee-container {
+        padding: 20px!important;
+    }
+
+    .image-container-medium-down {
+        padding-right: 0!important;
+    }
+
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-9, .col-10, .col-11 {
+        -ms-flex: 0 0 100%!important;
+        flex: 0 0 100%!important;
+        max-width: 100%!important;
+    }
+
+    .col-8 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%!important;
+        flex: 0 0 100%!important;
+        max-width: 100%!important;
+    }
+
+    .category-column-indicator .col-1 {
+        -ms-flex: 0 0 8.333333%!important;
+        flex: 0 0 8.333333%!important;
+        max-width: 8.333333%!important;
+    }
+
+    .category-column-indicator .col-11 {
+        -ms-flex: 0 0 91.666667%!important;
+        flex: 0 0 91.666667%!important;
+        max-width: 91.666667%!important;
+    }
+
+    .tabs-column-indicator .col-1 {
+        -ms-flex: 0 0 8.333333%!important;
+        flex: 0 0 8.333333%!important;
+        max-width: 8.333333%!important;
+    }
+
+    .tabs-column-indicator .col-11 {
+        -ms-flex: 0 0 91.666667%!important;
+        flex: 0 0 91.666667%!important;
+        max-width: 91.666667%!important;
+    }
+
+    .award-categories .col-4 {
+        -ms-flex: 0 0 100%!important;
+        flex: 0 0 100%!important;
+        max-width: 100%!important;
+    }
+
+    .card-sm-padding {
+        padding: 20px!important;
+    }
+
+    .img-header-sm {
+        height: 100px;
+    }
+
+    .full-banner .au-card-panel-item {
+        margin-bottom: 0!important;
+    }
+
+    .profile-lg {
+        width: 100%!important;
+    }
+
+    .au-card.quote .card-content {
+        padding: calc(var(--gutter) / 2)!important;
+        width: 100%!important;
+    }
+
+    .card-small-content-brown {
+        opacity: 0.81;
+        width: 100%;
+        background-color: #5f3b12;
+        float: none;
+        height: 240px!important;
+        z-index: 1;
+    }
+
+    .card-xs-img {
+        height: 239px!important;
+        width: 100%!important;
+    }
+
+    .story-highlight {
+        position: relative;
+        z-index: 2;
+        width: 100%!important;
+    }
+
+    .story-highlight-right {
+        right: initial;
+    }
+
+    .home .quote>div:first-of-type {
+        padding: var(--gutter)!important;
+    }
+
+    .home .quote .box {
+        padding: var(--gutter-20);
+    }
+
+    .row-sm {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+
+    .scholarships-home .col-7 {
+        -ms-flex: 0 0 100%!important;
+        flex: 0 0 100%!important;
+        max-width: 100%!important;
+        padding: 0!important;
+    }
+
+    .accordion.ts .card.au-card-panel {
+        left: 9px;
+        width: calc(100% - 9px);
+    }
+
+    .accordion.ts .span {
+        left: -200px;
+        background-color: transparent;
+    }
+
+    .accordion.ts .collapse-indicator {
+        left: unset;
+    }
+
+    .accordion.ts .last-item {
+        left: -51px;
+    }
+
+    .scholarships .col-5 {
+        -ms-flex: 0 0 100%!important;
+        flex: 0 0 100%!important;
+        max-width: 100%!important;
+        padding: 0!important;
+    }
+
+    .au-card-panel .landscape-banner {
+        height: auto!important;
+    }
+
+    .resources-info .col-4 {
+        -ms-flex: 0 0 100%!important;
+        flex: 0 0 100%!important;
+        max-width: 100%!important;
+        padding: 0!important;
+    }
+
+    .award-story-card-image {
+        height: 212px!important;
+    }
+
+    .au-card-panel .fil-student-association-image {
+        height: 135px!important;
+    }
+
+    .au-card-panel .card-image-opportunities {
+        height: 136px!important;
+    }
+
+    .gallery-container-cover {
+        background-color: #012c51;
+        width: 100%;
+        background-size: cover;
+        right: 0;
+        left: 0;
+        position: absolute;
+    }
+
+    div#gallery-container-cover {
+        display: flex;
+    }
+
+    .gallery-container-aas>div {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .gallery-container-aas {
+        margin-left: 20px!important;
+        margin-top: 20px!important;
+        height: 410px!important;
+        display: inline-flex;
+    }
+
+    .gallery-container-aas .whole {
+        width: 575px!important;
+    }
+
+    .gallery-container-aas .half {
+        width: 205px!important;
+    }
+
+    .gallery-container-aas .third {
+        width: 301px!important;
+    }
+
+    .gallery-container-aas:not(:first-child) {
+        margin-bottom: 20px;
+    }
+
+    .nav-pills .last-item {
+        position: absolute;
+        left: -10px;
+        border-left: 10px solid #efefef;
+        height: 53px;
+        top: 26px;
+    }
+
+    .download-pdf {
+        margin-top: 40px!important;
+        margin-bottom: 40px!important;
+    }
+
+    .aas-banner {
+        padding-left: 10px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1365px) {
+    .au-card .card-content {
+        width: 100%;
+        padding: 40px 68px;
+        background-color: rgba(1, 41, 81, 0.76);
+        float: none;
+        height: 100%;
+    }
+
+    .au-card .card-content-at-the-bottom {
+        width: 100%;
+        padding: 40px 68px;
+        background-color: rgba(1, 41, 81, 0.76);
+        float: none;
+        height: 100%;
+    }
+
+    .icon-large {
+        height: 100px;
+        width: 100px;
+    }
+
+    .profile {
+        height: 100px;
+        width: 100px;
+    }
+
+    .profile-circle {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%!important;
+    }
+
+    .box.arrow-left::after {
+        top: calc(50% - .5em);
+    }
+
+    .box.arrow-right::after {
+        top: calc(50% - .5em);
+    }
+
+    .icon-xl.left {
+        left: 0;
+    }
+
+    .icon-xl.right {
+        right: 0;
+    }
+
+    .translucent-arrow-bg {
+        background-size: auto 161%!important;
+        background-position: -48px 50%!important;
+    }
+
+    .arrow-separator-tablet {
+        position: absolute;
+        margin: auto;
+        right: 0;
+        top: 0;
+    }
+
+    .image-container-medium-down {
+        padding-right: 16%!important;
+    }
+
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-9, .col-10, .col-11 {
+        -ms-flex: 0 0 100%!important;
+        flex: 0 0 100%!important;
+        max-width: 100%!important;
+    }
+
+    .col-8 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%!important;
+        flex: 0 0 100%!important;
+        max-width: 100%!important;
+        padding: 0 0px!important;
+    }
+
+    .col-1.column-size-tablet, .col-2.column-size-tablet, .col-3.column-size-tablet, .col-4.column-size-tablet, .col-5.column-size-tablet, .col-6.column-size-tablet, .col-7.column-size-tablet, .col-9.column-size-tablet, .col-10.column-size-tablet, .col-11.column-size-tablet {
+        -ms-flex: 0 0 70%!important;
+        flex: 0 0 70%!important;
+        max-width: 70%!important;
+    }
+
+    .category-column-indicator .col-1, .tabs-column-indicator .col-1 {
+        -ms-flex: 0 0 8.333333%!important;
+        flex: 0 0 8.333333%!important;
+        max-width: 8.333333%!important;
+    }
+
+    .category-column-indicator .col-11, .tabs-column-indicator .col-11 {
+        -ms-flex: 0 0 91.666667%!important;
+        flex: 0 0 91.666667%!important;
+        max-width: 91.666667%!important;
+    }
+
+    .timeline-side-column-indicator .col-2 {
+        -ms-flex: 0 0 16.666667%!important;
+        flex: 0 0 16.666667%!important;
+        max-width: 16.666667%!important;
+    }
+
+    .timeline-side-column-indicator .col-10 {
+        -ms-flex: 0 0 83.333333%!important;
+        flex: 0 0 83.333333%!important;
+        max-width: 83.333333%!important;
+    }
+
+    .opportunities.col-6 {
+        -ms-flex: 0 0 45%!important;
+        flex: 0 0 45%!important;
+        max-width: 45%!important;
+        padding: 0!important;
+    }
+
+    .award-categories .col-4 {
+        -ms-flex: 0 0 100%!important;
+        flex: 0 0 100%!important;
+        max-width: 100%!important;
+    }
+
+    .courses-logo .col-6 {
+        -ms-flex: 0 0 50%!important;
+        flex: 0 0 50%!important;
+        max-width: 50%!important;
+        padding: 0!important;
+    }
+
+    .gallery-container {
+        margin: 0!important;
+        height: 150px;
+    }
+
+    .gallery-container .col-6 {
+        -ms-flex: 0 0 50%!important;
+        flex: 0 0 50%!important;
+        max-width: 50%!important;
+    }
+
+    .gallery-container .col-3 {
+        -ms-flex: 0 0 25%!important;
+        flex: 0 0 25%!important;
+        max-width: 25%!important;
+    }
+
+    .gallery-container div {
+        padding: 0 5px!important;
+    }
+
+    .gallery-container div:last-child {
+        padding-right: 0!important;
+    }
+
+    .gallery-container div:first-child {
+        padding-left: 0!important;
+    }
+
+    .search-result {
+        height: 246px;
+    }
+
+    .full-banner .col-6 {
+        padding: 0!important;
+    }
+
+    .quote .q-content {
+        padding-right: 20px!important;
+    }
+
+    .story-highlight-image {
+        max-width: 700px!important;
+    }
+
+    .story-highlight {
+        position: relative;
+        z-index: 2;
+        width: 100%!important;
+    }
+
+    .story-highlight-right {
+        right: initial;
+    }
+
+    .resources-info .col-4 {
+        -ms-flex: 0 0 100%!important;
+        flex: 0 0 100%!important;
+        max-width: 100%!important;
+        padding: 0!important;
+    }
+
+    .accordion.ts .card.au-card-panel {
+        left: 9px;
+        width: calc(100% - 9px);
+    }
+
+    .accordion.ts .span {
+        left: -200px;
+        background-color: transparent;
+    }
+
+    .accordion.ts .collapse-indicator {
+        left: unset;
+    }
+
+    .accordion.ts .last-item {
+        left: -51px;
+    }
+
+    .au-card-panel .landscape-banner {
+        height: auto!important;
+    }
+
+    .infographics {
+        width: 205px;
+        height: 266px;
+        position: relative;
+        margin-top: -40px;
+        margin-bottom: -40px;
+    }
+
+    .card-xs-img {
+        height: 180px!important;
+        width: 100%!important;
+    }
+
+    .card-sm-padding {
+        padding: 20px!important;
+    }
+
+    .card-small-content-brown {
+        opacity: 0.81;
+        width: 100%;
+        background-color: #5f3b12;
+        float: none;
+        height: 180px!important;
+        z-index: 1;
+    }
+
+    .au-card-panel .card-image-opportunities {
+        height: 131px!important;
+    }
+
+    .award-story-card-image {
+        height: 433px!important;
+    }
+
+    .au-card-panel .fil-student-association-image {
+        height: 270px!important;
+    }
+
+    .gallery-container-cover {
+        background-color: #012c51;
+        width: 100%;
+        background-size: cover;
+        right: 0;
+        left: 0;
+        position: absolute;
+    }
+
+    .card-content-auto-height-marine {
+        opacity: 0.81;
+        width: 100%;
+        background-color: #012c51;
+        float: none;
+        height: auto!important;
+        z-index: 1;
+    }
+
+    div#gallery-container-cover {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .gallery-container-aas>div {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .gallery-container-aas {
+        margin-left: 20px!important;
+        margin-top: 20px!important;
+        height: 205px!important;
+        display: inline-flex;
+    }
+
+    .gallery-container-aas .whole {
+        width: 575px!important;
+    }
+
+    .gallery-container-aas .half {
+        width: 205px!important;
+    }
+
+    .gallery-container-aas .third {
+        width: 301px!important;
+    }
+
+    .gallery-container-aas:not(:first-child) {
+        margin-bottom: 20px;
+    }
+
+    .nav-pills .last-item {
+        position: absolute;
+        left: -10px;
+        border-left: 10px solid #efefef;
+        height: 53px;
+        top: 26px;
+    }
+
+    .aas-banner {
+        padding-left: 10px;
+    }
+}
+
+@media all and (min-width: 1366px) {
+    .au-card .card-content {
+        width: 791px;
+        padding: 68px 40px;
+        background-color: rgba(1, 41, 81, 0.76);
+        float: none;
+        height: 100%;
+    }
+
+    .au-card .card-content-at-the-bottom {
+        width: 100%;
+        padding: 40px 40px;
+        background-color: rgba(1, 41, 81, 0.76);
+        float: none;
+    }
+
+    .au-card .card-content.sidebar-visible {
+        width: 716px;
+        padding: 68px 40px;
+        background-color: rgba(1, 41, 81, 0.76);
+        float: none;
+        height: 100%;
+    }
+
+    .au-card .card-content.full-width {
+        width: 100%!important;
+    }
+
+    .au-card .card-content.sm {
+        width: 685px!important;
+    }
+
+    .au-card-panel {
+        height: 100%;
+    }
+
+    .one-third {
+        position: relative;
+    }
+
+    .one-third .au-card-panel-item {
+        margin-bottom: 0!important;
+        padding-top: 40px!important;
+    }
+
+    .one-third.first {
+        padding-right: 26.6px!important;
+    }
+
+    .one-third.second {
+        padding-right: 13.3px!important;
+        padding-left: 13.3px!important;
+    }
+
+    .one-third.third {
+        padding-left: 26.6px!important;
+    }
+
+    .card-logo {
+        min-height: 339px;
+    }
+
+    .presentation-img-lg {
+        height: 176px;
+        width: 176px;
+    }
+
+    .h-presentation-img-lg {
+        height: 109px!important;
+        width: 207px!important;
+    }
+
+    .media-img {
+        height: 384px;
+        width: 384px;
+    }
+
+    .gallery-container>div {
+        margin-right: 7px;
+        margin-bottom: 7px;
+        font-size: 30px;
+    }
+
+    .gallery-container {
+        height: 107px!important;
+        display: flex;
+    }
+
+    .gallery-container:not(:last-child) {
+        margin-bottom: 7px;
+    }
+
+    .gallery-container .quarter {
+        width: 107px;
+    }
+
+    .quarter:last-child, .quarter:first-child {
+        width: 108px;
+    }
+
+    .gallery-container .half {
+        width: 222px;
+    }
+
+    .quote .q-content {
+        padding-right: 20px!important;
+        /* height: 233px; */
+    }
+
+    .card-xs-img {
+        height: 90px!important;
+        width: 100%!important;
+    }
+
+    .card-small-content-brown {
+        opacity: 0.81;
+        width: 100%;
+        background-color: #5f3b12;
+        float: none;
+        height: 90px!important;
+        z-index: 1;
+    }
+
+    .infographics {
+        width: 205px;
+        height: 226px;
+        position: relative;
+        margin-top: -40px;
+        margin-bottom: -40px;
+    }
+
+    .au-card-panel .card-image-opportunities {
+        height: 200px!important;
+    }
+
+    .au-card-panel .fil-student-association-image {
+        height: 430px!important;
+    }
+
+    .gallery-container-cover {
+        background-color: #012c51;
+        width: 100%;
+        background-size: cover;
+        right: 0;
+        left: 0;
+        z-index: -1;
+        position: absolute;
+    }
+
+    .gallery-container-aas>div {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .gallery-container-aas {
+        margin-left: 20px!important;
+        margin-top: 20px!important;
+        height: 205px!important;
+        display: flex;
+    }
+
+    .gallery-container-aas .whole {
+        width: 575px!important;
+    }
+
+    .gallery-container-aas .half {
+        width: 205px!important;
+    }
+
+    .gallery-container-aas .third {
+        width: 301px!important;
+    }
+
+    .gallery-container-aas:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .au-card-panel .fil-scholar {
+        height: 400px!important;
+    }
+
+    .fil-student-association-banner {
+        height: 500px!important;
+    }
+
+    .nav-pills .last-item {
+        position: absolute;
+        left: -10px;
+        border-left: 10px solid #efefef;
+        height: 100%;
+        top: 26px;
+    }
+
+    .nav-pills .first-item {
+        position: absolute;
+        left: -10px;
+        border-left: 10px solid #efefef;
+        height: 24px;
+    }
+
+    .excellence-awards.nav-pills div .first-item {
+        height: 100px;
+        top: -70px;
+    }
+}

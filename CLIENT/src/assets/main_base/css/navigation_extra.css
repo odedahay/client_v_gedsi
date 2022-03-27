@@ -1,0 +1,412 @@
+html {
+	scroll-behavior: smooth;
+}
+
+p {
+	/* font-size: initial!important; */
+	font-weight: initial!important;
+	cursor: initial!important;
+	color: initial;
+}
+
+ul {
+	list-style: circle;
+}
+
+#userDropdown.dropdown-menu, #settingsDropdown.dropdown-menu, #verticalNavDropdown.dropdown-menu {
+	min-height: 10vh;
+	max-height: 80vh;
+	overflow: auto;
+	left: initial!important;
+	right: 0!important;
+	min-width: 150px!important;
+}
+
+#userDropdown.dropdown-menu .dropdown-item, #settingsDropdown.dropdown-menu .dropdown-item {
+	padding: 10px!important;
+	font-size: inherit!important;
+	font-weight: initial!important;
+	font-family: NimbusSans!important;
+}
+
+#toggleSidebarArrow i {
+	font-size: 120%;
+	transform: translate(-200%, 0%);
+}
+
+.container-full {
+	max-width: 100%!important;
+}
+
+.backgroundcolor-aawards {
+	background-color: #012c51!important;
+}
+
+.color-aawards {
+	color: #012c51!important;
+}
+
+.sticky-on-top {
+	position: sticky!important;
+	top: 0;
+}
+
+.active-button {
+	background-color: #aea077!important;
+}
+
+.nav-link-button {
+	width: 100%;
+	height: 100%;
+	padding: 20px 20px!important;
+	background-color: transparent;
+	border: none;
+	text-transform: none!important;
+	color: black;
+	font-weight: bold;
+	font-size: 19px;
+}
+
+button.nav-link-button:hover, button.nav-link-button:focus {
+	outline: none;
+}
+
+.table-container {
+	overflow: auto;
+}
+
+.table-container table {
+	min-width: 600px;
+}
+
+.table-container table th {
+	min-width: 200px;
+}
+
+.table-container table th.firstcolumn {
+	min-width: 500px;
+}
+
+.collapsible-sidebar {
+	width: 30px;
+}
+
+div.no-margin-description p {
+	margin-bottom: 0px;
+}
+
+.child-initial-text-description p, .child-initial-text-description span, .child-initial-text-description h1, .child-initial-text-description h2, .child-initial-text-description h3, .child-initial-text-description h4, .child-initial-text-description h5, .child-initial-text-description h6 {
+	color: initial!important;
+}
+
+.child-inherit-text-description p, .child-inherit-text-description span, .child-inherit-text-description h1, .child-inherit-text-description h2, .child-inherit-text-description h3, .child-inherit-text-description h4, .child-inherit-text-description h5, .child-inherit-text-description h6 {
+	color: inherit!important;
+}
+
+.child-white-text-description p, .child-white-text-description span, .child-white-text-description h1, .child-white-text-description h2, .child-white-text-description h3, .child-white-text-description h4, .child-white-text-description h5, .child-white-text-description h6 {
+	color: white!important;
+}
+
+.text-decoration-none {
+	text-decoration: none!important;
+}
+
+.center-button-addItem {
+	padding-left: 49%;
+	padding-right: 49%;
+}
+
+.centered-on-screen {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.loading-container {
+	opacity: 0.6;
+	height: 100%;
+	width: 100%;
+	background-color: #282A35;
+	z-index: 999998;
+
+}
+
+.loading-icon {
+	border: 6px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 6px solid #6c757d;
+	width: 50px;
+	height: 50px;
+	-webkit-animation: spin 2s linear infinite; /* Safari */
+	animation: spin 2s linear infinite;
+	z-index: 999999;
+}
+
+.carousel-title-truncate h3 {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.overflow-x-auto {
+	overflow-x: auto;
+}
+
+.overflow-y-auto {
+	overflow-y: auto;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+	0% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+@media all and (max-width: 767px) {
+	.sticky-on-top-nav-no-banner {
+		position: sticky!important;
+		top: 78px;
+		z-index: 1020;
+	}
+
+	#toggleSidebarArrow
+	{
+		display: none;
+	}
+
+	#basicInfoCol1
+	{
+		-ms-flex: 0 0 33.333333%;
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
+	}
+
+	#basicInfoCol2
+	{
+		-ms-flex: 0 0 66.666667%;
+		flex: 0 0 66.666667%;
+		max-width: 66.666667%;
+	}
+
+	.collapsible-sidebar
+	{
+		width: 0%;
+	}
+
+	.align-middle.no-padding.pl-3.pr-3 {
+		text-align: center!important;
+	}
+
+	.d-block-on-portable {
+		display: block;
+	}
+
+	.carousel-vmedia-content-truncate {
+		display: -webkit-box;
+		-webkit-line-clamp: 7;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.carousel-content-truncate-for-h210 p {
+		display: -webkit-box;
+		-webkit-line-clamp: 1;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.carousel-content-truncate-for-h310 p {
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.carousel-content-truncate-for-h610 p {
+		display: -webkit-box;
+		-webkit-line-clamp: 13;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.carousel-content-truncate-for-h660 p {
+		display: -webkit-box;
+		-webkit-line-clamp: 15;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.carousel-content-truncate-for-h810 p {
+		display: -webkit-box;
+		-webkit-line-clamp: 20;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.carousel-content-truncate-for-h910 p {
+		display: -webkit-box;
+		-webkit-line-clamp: 24;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
+
+@media all and (min-width: 768px) and (max-width: 1365px) {
+	.sticky-on-top-nav-no-banner {
+		position: sticky!important;
+		top: 109px;
+		z-index: 1020;
+	}
+
+	.collapsible-sidebar
+	{
+		width: 0%;
+		overflow-y: auto;
+	}
+
+	.no-header-img.no-header {
+		padding-top: 0px!important;
+	}
+
+	.align-middle.no-padding.pl-3.pr-3 {
+		text-align: center!important;
+	}
+
+	.d-block-on-portable {
+		display: block;
+	}
+
+	.carousel-vmedia-content-truncate {
+		display: -webkit-box;
+		-webkit-line-clamp: 5;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.carousel-content-truncate-for-h210 p {
+		display: -webkit-box;
+		-webkit-line-clamp: 1;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.carousel-content-truncate-for-h310 p {
+		display: -webkit-box;
+		-webkit-line-clamp: 4;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.carousel-content-truncate-for-h610 p {
+		display: -webkit-box;
+		-webkit-line-clamp: 14;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.carousel-content-truncate-for-h660 p {
+		display: -webkit-box;
+		-webkit-line-clamp: 15;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.carousel-content-truncate-for-h810 p {
+		display: -webkit-box;
+		-webkit-line-clamp: 21;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.carousel-content-truncate-for-h910 p {
+		display: -webkit-box;
+		-webkit-line-clamp: 24;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
+
+@media all and (min-width: 1366px) {
+	.sticky-on-top-nav-no-banner {
+		position: sticky!important;
+		top: 108px;
+		z-index: 1020;
+	}
+
+	.carousel-vmedia-content-truncate {
+		display: -webkit-box;
+		-webkit-line-clamp: 4;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.carousel-content-truncate-for-h210 p {
+		display: -webkit-box;
+		-webkit-line-clamp: 1;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.carousel-content-truncate-for-h310 p {
+		display: -webkit-box;
+		-webkit-line-clamp: 4;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.carousel-content-truncate-for-h610 p {
+		display: -webkit-box;
+		-webkit-line-clamp: 14;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.carousel-content-truncate-for-h660 p {
+		display: -webkit-box;
+		-webkit-line-clamp: 16;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.carousel-content-truncate-for-h810 p {
+		display: -webkit-box;
+		-webkit-line-clamp: 21;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.carousel-content-truncate-for-h910 p {
+		display: -webkit-box;
+		-webkit-line-clamp: 24;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
