@@ -19,7 +19,7 @@
                 <div class="row-main__col">
                     <div class="accordion-main">
                         <div class="tab">
-                            <input type="checkbox" id="chck1" class="">
+                            <input type="checkbox" id="chck1" class="accordion-main__checkbox">
                             <label class="tab-label is-checked" for="chck1">
                                 <div class="tab-label--sub">
                                     <h4>Domain 1: Developing and implementing GEDSI Policy</h4>
@@ -90,7 +90,7 @@
                             </div>
                         </div>
                         <div class="tab">
-                            <input type="checkbox" id="chck2">
+                            <input type="checkbox" id="chck2" class="accordion-main__checkbox">
                             <label class="tab-label" for="chck2">
                                 <div class="tab-label--sub">
                                     <h4>Domain 2: GEDSI Laws & Policies (3 indicators)</h4>
@@ -161,7 +161,7 @@
                             </div>
                         </div>
                         <div class="tab">
-                            <input type="checkbox" id="chck3">
+                            <input type="checkbox" id="chck3" class="accordion-main__checkbox">
                             <label class="tab-label" for="chck3">
                                 <div class="tab-label--sub">
                                     <h4>Domain 3: GEDSI Laws & Policies (3 indicators)</h4>
@@ -255,6 +255,6 @@
 
 <style scoped>
 .max-width{
-    width:960px;
+    width:1240px;
 }
 </style>
