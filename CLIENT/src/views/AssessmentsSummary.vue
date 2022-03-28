@@ -92,19 +92,225 @@ import TopNavbar from '../components/TopNavbar.vue'
 
                         <h3 class="title is-6 has-text-right orange-color">Overall Score: 2.25</h3>
 
-                        <button class="accordion">Section 1</button>
-                        <div class="panel">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
 
-                        <button class="accordion">Section 2</button>
-                        <div class="panel">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
+                        <div class="row-main">
+                            <div class="row-main__col">
+                                <div class="accordion-main">
+                                    <div class="tab is-opened">
+                                        <input type="checkbox" id="chck1" class="">
+                                        <label class="tab-label is-checked" for="chck1">
+                                           <div class="tab-label--sub">
+                                                <h4>Domain 1: Developing and implementing GEDSI Policy</h4>
+                                                <div class="columns">
+                                                    <div class="column is-3">
+                                                        <span class="label-indicator">13 of 13 indicators completed</span>
+                                                    </div>
+                                                    <div class="column">
+                                                        <span class="label-indicator">Average: <span class="orange-color is-size-6">1.72</span></span>
+                                                    </div>
+                                                </div>
+                                            </div>
 
-                        <button class="accordion">Section 3</button>
-                        <div class="panel">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        </label>
+                                        <div class="tab-content">
+                                           <div class="summary-content">
+                                                <div class="columns is-vcentered mt-0 mb-0">
+                                                    <div class="column is-three-quarters">
+                                                        <p>1.01 Sex-disaggregated and reliable gender data</p>
+                                                    </div>
+                                                    <div class="column has-text-right">
+                                                       
+                                                    </div>
+                                                    <div class="column has-text-right pr-6">
+                                                        <p></p>
+                                                    </div>
+                                            </div>
+                                            <div class="columns is-vcentered mt-0 mb-0">
+                                                <div class="column is-three-quarters">
+                                                    <p>1.02 Sex-disaggregated and reliable gender data</p>
+                                                </div>
+                                                <div class="column has-text-right">
+                                                    <button class="button is-success is-light is-border is-rounded-2">
+                                                        <font-awesome-icon icon="check" class="mr-0 ml-0"/>
+                                                    </button>
+                                                </div>
+                                                <div class="column has-text-right pr-6">
+                                                    <p>4</p>
+                                                </div>
+                                            </div>
+                                            <div class="columns is-vcentered mt-0 mb-0">
+                                                <div class="column is-three-quarters">
+                                                    <p>1.03 Sex-disaggregated and reliable gender data Sex-disaggregated and reliable gender data</p>
+                                                </div>
+                                                <div class="column has-text-right">
+                                                     <button class="button is-success is-light is-border is-rounded-2">
+                                                        <font-awesome-icon icon="check" class="mr-0 ml-0"/>
+                                                    </button>
+                                                </div>
+                                                <div class="column has-text-right pr-6">
+                                                    <p>4</p>
+                                                </div>
+                                            </div>
+                                            <div class="columns is-vcentered mt-0 mb-0">
+                                                <div class="column is-three-quarters">
+                                                    <p>1.04 Sex-disaggregated and reliable gender data</p>
+                                                </div>
+                                                <div class="column has-text-right">
+                                                     <button class="button is-success is-light is-border is-rounded-2">
+                                                        <font-awesome-icon icon="check" class="mr-0 ml-0"/>
+                                                    </button>
+                                                </div>
+                                                <div class="column has-text-right pr-6">
+                                                    <p>4</p>
+                                                </div>
+                                            </div>
+                                           </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab">
+                                        <input type="checkbox" id="chck2">
+                                        <label class="tab-label" for="chck2">
+                                            <div class="tab-label--sub">
+                                                <h4>Domain 2: GEDSI Laws & Policies (3 indicators)</h4>
+                                                <div class="columns">
+                                                    <div class="column is-3">
+                                                        <span class="label-indicator">13 of 13 indicators completed</span>
+                                                    </div>
+                                                    <div class="column">
+                                                        <span class="label-indicator">Average: <span class="orange-color is-size-6">1.72</span></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </label>
+                                        <div class="tab-content">
+                                            <div class="summary-content">
+                                                <div class="columns is-vcentered mt-0 mb-0">
+                                                    <div class="column is-three-quarters">
+                                                        <p>1.01 Sex-disaggregated and reliable gender data</p>
+                                                    </div>
+                                                    <div class="column has-text-right">
+                                                       
+                                                    </div>
+                                                    <div class="column has-text-right pr-6">
+                                                        <p></p>
+                                                    </div>
+                                            </div>
+                                            <div class="columns is-vcentered mt-0 mb-0">
+                                                <div class="column is-three-quarters">
+                                                    <p>1.02 Sex-disaggregated and reliable gender data</p>
+                                                </div>
+                                                <div class="column has-text-right">
+                                                    <button class="button is-success is-light is-border is-rounded-2">
+                                                        <font-awesome-icon icon="check" class="mr-0 ml-0"/>
+                                                    </button>
+                                                </div>
+                                                <div class="column has-text-right pr-6">
+                                                    <p>4</p>
+                                                </div>
+                                            </div>
+                                            <div class="columns is-vcentered mt-0 mb-0">
+                                                <div class="column is-three-quarters">
+                                                    <p>1.03 Sex-disaggregated and reliable gender data Sex-disaggregated and reliable gender data</p>
+                                                </div>
+                                                <div class="column has-text-right">
+                                                     <button class="button is-success is-light is-border is-rounded-2">
+                                                        <font-awesome-icon icon="check" class="mr-0 ml-0"/>
+                                                    </button>
+                                                </div>
+                                                <div class="column has-text-right pr-6">
+                                                    <p>4</p>
+                                                </div>
+                                            </div>
+                                            <div class="columns is-vcentered mt-0 mb-0">
+                                                <div class="column is-three-quarters">
+                                                    <p>1.04 Sex-disaggregated and reliable gender data</p>
+                                                </div>
+                                                <div class="column has-text-right">
+                                                     <button class="button is-success is-light is-border is-rounded-2">
+                                                        <font-awesome-icon icon="check" class="mr-0 ml-0"/>
+                                                    </button>
+                                                </div>
+                                                <div class="column has-text-right pr-6">
+                                                    <p>4</p>
+                                                </div>
+                                            </div>
+                                           </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab">
+                                        <input type="checkbox" id="chck3">
+                                        <label class="tab-label" for="chck3">
+                                            <div class="tab-label--sub">
+                                                <h4>Domain 3: GEDSI Laws & Policies (3 indicators)</h4>
+                                                <div class="columns">
+                                                    <div class="column is-3">
+                                                        <span class="label-indicator">13 of 13 indicators completed</span>
+                                                    </div>
+                                                    <div class="column">
+                                                        <span class="label-indicator">Average: <span class="orange-color is-size-6">1.72</span></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </label>
+                                        <div class="tab-content">
+                                            <div class="summary-content">
+                                                <div class="columns is-vcentered mt-0 mb-0">
+                                                    <div class="column is-three-quarters">
+                                                        <p>1.01 Sex-disaggregated and reliable gender data</p>
+                                                    </div>
+                                                    <div class="column has-text-right">
+                                                       
+                                                    </div>
+                                                    <div class="column has-text-right pr-6">
+                                                        <p></p>
+                                                    </div>
+                                            </div>
+                                            <div class="columns is-vcentered mt-0 mb-0">
+                                                <div class="column is-three-quarters">
+                                                    <p>1.02 Sex-disaggregated and reliable gender data</p>
+                                                </div>
+                                                <div class="column has-text-right">
+                                                    <button class="button is-success is-light is-border is-rounded-2">
+                                                        <font-awesome-icon icon="check" class="mr-0 ml-0"/>
+                                                    </button>
+                                                </div>
+                                                <div class="column has-text-right pr-6">
+                                                    <p>4</p>
+                                                </div>
+                                            </div>
+                                            <div class="columns is-vcentered mt-0 mb-0">
+                                                <div class="column is-three-quarters">
+                                                    <p>1.03 Sex-disaggregated and reliable gender data Sex-disaggregated and reliable gender data</p>
+                                                </div>
+                                                <div class="column has-text-right">
+                                                     <button class="button is-success is-light is-border is-rounded-2">
+                                                        <font-awesome-icon icon="check" class="mr-0 ml-0"/>
+                                                    </button>
+                                                </div>
+                                                <div class="column has-text-right pr-6">
+                                                    <p>4</p>
+                                                </div>
+                                            </div>
+                                            <div class="columns is-vcentered mt-0 mb-0">
+                                                <div class="column is-three-quarters">
+                                                    <p>1.04 Sex-disaggregated and reliable gender data</p>
+                                                </div>
+                                                <div class="column has-text-right">
+                                                     <button class="button is-success is-light is-border is-rounded-2">
+                                                        <font-awesome-icon icon="check" class="mr-0 ml-0"/>
+                                                    </button>
+                                                </div>
+                                                <div class="column has-text-right pr-6">
+                                                    <p>4</p>
+                                                </div>
+                                            </div>
+                                           </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         
                         <button class="button is-primary mt-5 mb-6">Confirm</button>
@@ -123,28 +329,28 @@ import TopNavbar from '../components/TopNavbar.vue'
             return {}
         },
         mounted() {
-            var acc = document.getElementsByClassName("accordion");
-            var i;
+            // var acc = document.getElementsByClassName("accordion");
+            // var i;
 
-            for (i = 0; i < acc.length; i++) {
-                acc[i].addEventListener("click", function() {
+            // for (i = 0; i < acc.length; i++) {
+            //     acc[i].addEventListener("click", function() {
 
-                    this.classList.toggle("active");
-                    var panel = this.nextElementSibling;
+            //         this.classList.toggle("active");
+            //         var panel = this.nextElementSibling;
                     
-                    if (panel.style.maxHeight) {
-                        panel.style.maxHeight = null;
-                    } else {
-                        panel.style.maxHeight = panel.scrollHeight + "px";
-                    } 
-                });
-            }
+            //         if (panel.style.maxHeight) {
+            //             panel.style.maxHeight = null;
+            //         } else {
+            //             panel.style.maxHeight = panel.scrollHeight + "px";
+            //         } 
+            //     });
+            // }
 
         }
     }
 </script>
 
-<style lang="scss">
+<style lang="scss" scope>
 @import '@/assets/variables.scss';
 .grey-bg{
   background-color: $table-head-bg!important;
@@ -158,41 +364,133 @@ import TopNavbar from '../components/TopNavbar.vue'
     color: #F88410;
 }
 
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
+.tab-content .columns{
+    border-bottom: 1px solid #A5C9FF;
+}
+.tab-content .columns:last-child{
+    border-bottom: none;
+}
+.is-rounded-2{
+  width: 37px;
+  height: 37px;
+  line-height: 37px;
+  border-radius: 50%;
+  font-size: 1.10rem;
+  text-align: center;
+  
+}
+.button.is-success.is-border{
+    border: 1px solid #6cbe98;
 }
 
-.active, .accordion:hover {
-  background-color: #ccc;
+.label-indicator{
+    font-weight: 400;
+    color: #174A84;
+    font-size: 1rem;
 }
 
-.accordion:after {
-  content: '\002B';
-  color: #777;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
+.row-summary{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
 }
 
-.active:after {
-  content: "\2212";
+input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
 }
-
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  max-height: 0;
+// Layout
+.row-main {
+  display:flex;
+  &__col {
+    flex:1;
+    &:last-child {
+      margin-left: 0em;
+    }
+  }
+  &__tabs {
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 4px 4px -2px rgba(0,0,0,0.5);
+    }
+}
+/* Accordion styles */
+.accordion-main {
+  border-radius: 6px;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
+    // box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+  border: 1px solid #A5C9FF
+}
+
+.tab {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+}
+.tab-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background: #EAE7E7;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 1px;
+  /* Icon */
+}
+.tab-label:hover {
+  background: #DBDADA;
+}
+.tab-label::after {
+  content: "❯";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+  color: #3191EA;
+}
+.tab-label--sub{
+    width: 100%;
+}
+.tab-content {
+  max-height: 0;
+  padding: 0 1em;
+  color: #2c3e50;
+  background: white;
+  transition: all 0.35s;
+}
+.tab-close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  font-size: 0.75em;
+  background: #2c3e50;
+  cursor: pointer;
+}
+.tab-close:hover {
+  background: #1a252f;
+}
+
+input:checked + .tab-label {
+  background: #DBDADA;
+}
+input:checked + .tab-label::after {
+  transform: rotate(90deg);
+}
+input:checked ~ .tab-content {
+  max-height: 100vh;
+  padding: 1em;
+}
+
+// for accordion is open 
+.tab.is-opened .tab-content{
+    max-height: 100vh;
+    padding: 1em;
+}
+
+.tab.is-opened .tab-label.is-checked::after{
+    transform: rotate(90deg);
 }
 
 </style>
